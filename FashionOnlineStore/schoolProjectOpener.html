@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en" class="html">
+    
+    <head>
+      <title>School Project</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="schoolproject.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+      <style>
+            * {box-sizing: border-box}
+            .mySlides1, .mySlides2 {display: none}
+            img {vertical-align: middle;}
+
+            /* Slideshow container */
+            .slideshow-container {
+              max-width: 1000px;
+              position: relative;
+              margin: auto;
+            }
+
+            /* Next & previous buttons */
+            .prev, .next {
+              cursor: pointer;
+              position: absolute;
+              top: 50%;
+              width: auto;
+              padding: 16px;
+              margin-top: -22px;
+              color: white;
+              font-weight: bold;
+              font-size: 18px;
+              transition: 0.6s ease;
+              border-radius: 0 3px 3px 0;
+              user-select: none;
+            }
+
+            /* Position the "next button" to the right */
+            .next {
+              right: 0;
+              border-radius: 3px 0 0 3px;
+            }
+
+            /* On hover, add a grey background color */
+            .prev:hover, .next:hover {
+              background-color: #f1f1f1;
+              color: black;
+            }
+          
+        </style>
+        
+        
+        <h1 class="head">Nate's Fashion Online Store</h1>
+    </head> 
+
+    <body class="body" style="align-self: center";>
+                <p>HATS:</p>
+                <div class="slideshow-container">
+                  <div class="mySlides1" style="align-items: center";>
+                    <img src="images/hats/girlHat.jpg" style="width:40%">
+                  </div>
+
+                  <div class="mySlides1">
+                    <img src="images/hats/fedora.jpg" style="width:40%">
+                  </div>
+
+                  <div class="mySlides1">
+                        <img src="images/hats/whiteCap.jpg" style="width:40%">
+                  </div>
+
+
+                  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+                </div>
+
+        
+                <p>JACKETS/COATS:</p>
+                <div class="slideshow-container">
+                  <div class="mySlides2">
+                    <img src="images/jackets/blackLeatherJacket.jpg" style="width:40%">
+                  </div>
+
+                  <div class="mySlides2">
+                    <img src="images/jackets/girlBrownJacket.jpg" style="width:40%">
+                  </div>
+
+
+                  <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                  <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                </div>
+        
+        
+        <script src="schoolprojectjs.js">
+        </script>
+
+    </body>
+
+</html>

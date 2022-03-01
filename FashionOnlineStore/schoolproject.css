@@ -1,0 +1,21 @@
+html,
+            .html{
+                background-image: url(images/bady-abbas-hxi_yRxODNc-unsplash.jpg);
+
+            }
+
+            .head {
+                text-align: center;
+                background-color: beige;
+
+            }
+
+            .body {
+                font-family: Roboto, sans-serif;
+                margin: 0;
+                color: black;
+                padding: 10px;
+                background-image: url(images/bady-abbas-hxi_yRxODNc-unsplash.jpg);
+                background-size: cover;
+                background-position: center;
+            }
